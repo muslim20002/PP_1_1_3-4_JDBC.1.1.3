@@ -97,6 +97,7 @@ public class UserDaoHibernateImpl implements UserDao {
                 throw e;
             }
         }
+        System.out.println(users);
         return users;
     }
 
